@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constri facil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0e9e9;
+        }
+        header {
+            background-color: #b673dd;
+            color: #edeee9;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #54045f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #41065c;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #b072e2;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vinicius construçoes</h1>
+        <img src="vini.jpeg" alt="Logo da Empresa">
+    </header>
+
+    <nav>
+        <a href="#home">Página Inicial</a>
+        <a href="#contato">Contato</a>
+        <a href="#fotos">Fotos</a>
+    </nav>
+
+    <section id="home">
+        <h2>Bem-vindo à Sua Empresa</h2>
+        <p> Uma empresa de materias de construção, sempre presando pelo cliente e sempre entregando ótimos serviços, no mercado de trabalho a mais de 18 anos na Cidade de Foz do iguaçu,
+
+        </p>
+    </section>
+
+    <section id="contato">
+        <h2> whats: 45 999323-2323
+            insta:viniconstruçoes
+            <instagram:contruifacil</instagram:contruifacil_>
+        </h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+(Sem título)
+<label for="cidade">Cidade:</label>
+            <select id="cidade" name="cidade" required>
+                <option value="cidade1">Cidade 1</option>
+                <!-- Adicione mais 14 cidades aqui -->
+
+            </select>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        Todos os direitos reservados &copy; Vinicius construçoes
+    </footer>
+</body>
+</html>
